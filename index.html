@@ -23,6 +23,28 @@
                         margin-bottom: 0px;
                 }
 
+                #header p{
+                    float:left;
+                }
+
+                #header #menu{
+                    float: right;
+                    margin-right: 150px;
+                }
+
+                #header #menu button{
+                    margin: 15 0;
+                    background: #57c77d;
+                    border: 3px solid #38a861;
+                    color: #cfe7eb;
+                    padding: 10px;
+                    border-radius: 8px;
+                    margin-left: 15px;
+                    width: 100px;
+                    cursor: crosshair;
+                    font-family: 'Galindo', cursive;
+                }
+
                 #box{
                         margin: 0 auto;
                         width: 70%;
@@ -87,16 +109,40 @@
         </style>
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script type="text/javascript" src="http://tutorial-webdesign.com/labs/jquery/landing-one-page/js/jquery.onepage-scroll.js"></script>
+        <script type="text/javascript" src="js/page_scroll.js"></script>
         <link rel="stylesheet" type="text/css" href="http://tutorial-webdesign.com/labs/jquery/landing-one-page/css/onepage-scroll.css" />
 
         <link href='http://fonts.googleapis.com/css?family=Galindo' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
 
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                $(".one").on("click",function(){
+                     $(".main").moveTo(1);
+                });
+
+                $(".two").on("click",function(){
+                     $(".main").moveTo(2);
+                });
+
+                $(".three").on("click",function(){
+                      $(".main").moveTo(3);
+                });
+            });
+
+        </script>
+
 </head>
 <body>
         <div id="header">
-        <p class="name">Agung Setiawan!</p>
+            <p class="name">Agung Setiawan!</p>
+
+            <div id="menu">
+                <button class="one"/>Terrace</button>
+                <button class="two"/>Deeper</button>
+                <button class="three"/>Cups</button>
+            </div>
         </div>
 
         <div class="main">
@@ -105,7 +151,7 @@
                 <section class="page-one">
                         <div id="box">       
                         <p>Hello, welcome to my Github page</p>
-                        <p>This site is still under construction, not yet responsive</p>
+                        <p>This site is still under construction, not yet responsive (best view in 1366x768)</p>
                         <p>you may want to see me via other ways like listed below</p>
                         
                         <div id="social-media">
