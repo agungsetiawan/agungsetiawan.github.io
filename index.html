@@ -1,76 +1,175 @@
 <html>
 <head>
-	<title>Agung Setiawan on Github</title>
-	<style type="text/css">
-		body{
-			background: #66b6cd;
-			padding: 0px;
-			margin: 0px;
-		}
+        <title></title>
 
-		#container{
+          <style type="text/css">
+                body{
+                        background: #24346c ;
+                        padding: 0px;
+                        margin: 0px;
+                }
 
-		}
+                #container{
 
-		#header{
-			background: #bf3f3f;
-			height: 13%;
-			padding: 13px 0px 0px 30px;
-		}
+                }
 
-		#box{
-			margin: 0 auto;
-			width: 70%;
-			padding-top: 120px;
-		}
+                #header{
+                        background: #bf3f3f;
+                        height: 13%;
+                        padding: 13px 0px 0px 30px;
+                        position: relative;
+                        width: 100%;
+                        z-index: 10;
+                        margin-bottom: 0px;
+                }
 
-		p{
-			color: #cfe7eb;
-			font-size: 26;
-			font-family: 'Viga', sans-serif;
-			margin-top: 0px;
-			margin-bottom: 5px;
-		}
+                #box{
+                        margin: 0 auto;
+                        width: 70%;
+                        padding-top: 100px;
+                }
 
-		p.name{
-			font-size: 46;
-			font-weight: bold;
-			font-family: 'Galindo', cursive;
-			margin-bottom: 25px;
-		}
+                p, ul li{
+                        color: #cfe7eb;
+                        font-size: 26;
+                        font-family: 'Viga', sans-serif;
+                        margin-top: 0px;
+                        margin-bottom: 5px;
+                }
 
-		#social-media{
-			margin-top: 35px;
-		}
+                p.name{
+                        font-size: 46;
+                        font-weight: bold;
+                        font-family: 'Galindo', cursive;
+                        margin-bottom: 25px;
+                }
 
-		#social-media img{
-			margin-right: 12px;
-		}
-	</style>
+                #social-media{
+                        margin-top: 35px;
+                }
 
-	<link href='http://fonts.googleapis.com/css?family=Galindo' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+                #social-media img{
+                        margin-right: 12px;
+                }
+
+                .page-two{
+                        background: #555557;
+                }
+
+                .page-two #box #left{
+                        float: left;
+                        width: 60%;
+                }
+
+                .page-two #box #right{
+                        float: right;
+                        width: 40%;
+                }
+
+                .page-two #box #right img, .page-three #box #left img {
+                        border:8px solid #49494b;
+                        border-radius: 5px;
+                }
+
+                .page-three #box #left{
+                        float: left;
+                        width: 40%;
+                }
+
+                .page-three #box #right{
+                        float: right;
+                        width: 60%;
+                }
+
+                .page-three{
+                        background: #a87b51;
+                }
+        </style>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="http://tutorial-webdesign.com/labs/jquery/landing-one-page/js/jquery.onepage-scroll.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://tutorial-webdesign.com/labs/jquery/landing-one-page/css/onepage-scroll.css" />
+
+        <link href='http://fonts.googleapis.com/css?family=Galindo' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<p class="name">Agung Setiawan!</p>
-		</div>
-		<div id="box">
-			
-			<p>Hello, welcome to my Github page</p>
-			<p>This site is still under construction, you may want to see me via other ways like listed below</p>
-			
-			<div id="social-media">
-				<a href="https://twitter.com/blinkawan"><img src="http://web.grammar.sch.gg/images/managed/twitter_logo.png" width="60" height="60"/></a>
+        <div id="header">
+        <p class="name">Agung Setiawan!</p>
+        </div>
 
-				<a href="https://www.facebook.com/blinkboyz"><img src="http://www.msjc.edu/StudentServices/StudentGovernmentAssociation/District%20Committees%2020112012/facebook_logo.png" width="60" height="60"/></a>
+        <div class="main">
+                
 
-				<a href="http://agung-setiawan.com"><img src="http://www.mediacloud.net.au/wp-content/uploads/2013/09/wordpress_logo.png" width="65" height="65"/></a>
+                <section class="page-one">
+                        <div id="box">       
+                        <p>Hello, welcome to my Github page</p>
+                        <p>This site is still under construction, not yet responsive</p>
+                        <p>you may want to see me via other ways like listed below</p>
+                        
+                        <div id="social-media">
+                                <a href="https://twitter.com/blinkawan"><img src="img/twitter.png"/></a>
 
-			</div>
-		</div>
-	</div>
+                                <a href="https://www.facebook.com/blinkboyz"><img src="img/facebook.png"/></a>
+
+                                <a href="http://agung-setiawan.com"><img src="img/wordpress.png"/></a>
+
+                        </div>
+                </div>
+                </section>
+
+                <section class="page-two">
+                        <div id="box"> 
+                                <div id="left">
+                                         <p>I'm not handsome but decent</p>
+                                         <p>Interested in software engineering, </p>
+                                         <p>Java technology and its framework, </p>
+                                         <p>.NET even it is owned by microsoft, </p>
+                                         <p>Ruby and its famous Rails web framework.</p>
+                                         </br>
+                                         <p>Pray for me that i can mastering those technologies...</p>
+                                </div>      
+                                 
+                                 <div id="right">
+                                        <img src="img/me.jpg"/> 
+                                 </div>
+
+                                
+                        </div>
+
+
+                </section>
+
+                <section class="page-three">
+                        <div id="box"> 
+                                <div id="left">
+                                        <img src="img/web.png"/>
+                                         
+                                </div>      
+                                 
+                                 <div id="right">
+                                         <p>Sometimes i'm playing around with web design</p>
+                                         <p>and client side programming : </p>
+                                         <ul>
+                                                <li>Html</li>
+                                                <li>Css</li>
+                                                <li>JavaScript (mainly jQuery and AngularJS)</li>
+                                         </ul>
+
+                                         <p>Although i'm not genius, just decent, but i'm learning and happy doing that and always will be</p>
+                                 </div>
+
+                                
+                        </div>
+                </section>
+
+        </div>
+
+        <script type="text/javascript">
+        $(".main").onepage_scroll({
+                sectionContainer: "section",
+        });
+        </script>
 </body>
 </html>
