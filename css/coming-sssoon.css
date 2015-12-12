@@ -800,6 +800,10 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     .main .subscribe .form-inline .btn{
         width: 100%;
     }   
+
+    .speech {
+        white-space:nowrap;
+    }
 }
 @media (min-width:768px){        
     .main .subscribe .form-inline .btn{
