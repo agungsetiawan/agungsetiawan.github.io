@@ -654,7 +654,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 
 .main{
-    background-position: center center;
+    background: url('../images/mac.jpg');
+    background-position-x: center;
     background-size: cover;
     height: auto;
     left: 0;
