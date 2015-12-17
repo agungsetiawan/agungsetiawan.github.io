@@ -10,17 +10,17 @@
   <meta property="og:url" content="http://idrails.com" />
   <meta property="og:image" content="http://agungsetiawan.github.io/images/share.png" />
     
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-    
-    <title>IdRails - Tutorial Ruby on Rails Berbahasa Indonesia</title>
-    
-    <link href="css/bootstrap.css" rel="stylesheet" />
-	<link href="css/coming-sssoon.css" rel="stylesheet" />    
-    
-    <!--     Fonts     -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+  
+  <title>IdRails - Tutorial Ruby on Rails Berbahasa Indonesia</title>
+  
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/coming-sssoon.css" rel="stylesheet" />    
+  
+  <!--     Fonts     -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
   
 </head>
 
@@ -58,12 +58,8 @@
   </div><!-- /.container -->
 </nav>
 <div class="main">
-
-<!--    Change the image source '/images/default.jpg' with your favourite image.     -->
     
     <div class="cover black" data-color="black"></div>
-     
-<!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
 
     <div class="container">
         <div class="ribbon-wrapper-green"><div class="ribbon-green">Coming Soon</div></div>
@@ -73,7 +69,6 @@
                idRails.com
             </span>
         </h1>
-<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
         
         <div class="content">
             <h4 class="motto">Tutorial dan Screencast Ruby on Rails Terstruktur Berbahasa Indonesia.</h4>
@@ -136,10 +131,6 @@
             success: function(data){
               console.log(data.jumlah);
               $("#total").html(data.jumlah)
-            },
-            error : function(err){
-              console.log("error");
-              console.log(err);
             }
           });
         }
@@ -161,21 +152,10 @@
                       getCount();
 
                       $("#success").append("<div class=\"alert alert-success\"> <a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a> <strong>Terimakasih!</strong> kamu sudah terdaftar dan mendukung kami untuk berkarya :) </div>");
-                    },
-                    error : function(err){
-                      console.log("error");
-                      console.log(err);
                     }
-
                 });
             }
           });
-
-        $("#button").click(function(){
-
-                            
-
-        });
 
       });
 
