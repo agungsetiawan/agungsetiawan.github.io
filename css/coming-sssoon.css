@@ -956,7 +956,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   overflow: hidden;
   position: absolute;
   top: -3px;
-  right: -3px;
+  right: 1px;
 }
 
 .ribbon-green {
